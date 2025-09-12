@@ -1,0 +1,23 @@
+檔案名稱命名與功能對照表
+|  |  | 
+| DeepLearningIntro.jsx |  概念導入 + 結構圖 + 詞彙 + 動畫| 
+| ModelStructureExplorer.jsx |  MLP/CNN/RNN/Transformer 結構探索| 
+| ModelParameterExplorer.jsx |  模型參數與超參數解釋器| 
+| ActivationFunctionExplorer.jsx |  激活函數視覺化與比較| 
+| GradientFlowSimulator.jsx |  梯度消失與爆炸模擬器| 
+| LossOptimizerSimulator.jsx |  損失函數與優化器模擬器| 
+| OverfittingControlPanel.jsx |  過擬合與正則化互動模組| 
+| NormalizationVisualizer.jsx |  BatchNorm / LayerNorm 模擬器| 
+| TrainingFlowVisualizer.jsx |  模型訓練流程動畫| 
+| ApplicationMap.jsx |  應用導圖：領域 → 模型 → 特徵策略| 
+| DatasetSelector.jsx |  資料集選擇器與推薦模型| 
+| TransferLearningPanel.jsx |  遷移學習與微調模組| 
+| ArchitectureTimeline.jsx |  深度學習架構演進圖| 
+| AttentionMechanismExplorer.jsx |  注意力機制模擬器| 
+| DeepLearningGlossary.jsx |  詞彙解釋區（可被其他模組呼叫）| 
+| EthicsAndBiasPanel.jsx |  模型偏見與公平性教學模組| 
+| LearningFlowNavigator.jsx |  教學流程導覽與模組跳轉器| 
+
+
+
+
