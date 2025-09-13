@@ -5,7 +5,7 @@ import FeatureEngineeringPage from './pages/FeatureEngineeringPage';
 import DeepLearningOverviewPage from './pages/DeepLearningOverviewPage';
 
 const Router = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/dl-visual-modules">
     <Routes>
       <Route path="/" element={<DataPreprocessingPage />} />
       <Route path="/feature-engineering" element={<FeatureEngineeringPage />} />

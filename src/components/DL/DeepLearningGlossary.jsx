@@ -690,7 +690,27 @@ const glossary = {
   definition: '僅更新模型的部分層或模組，通常為中上層，以平衡效能與訓練穩定性。',
   usage: '適用於資料量中等且任務與預訓練模型有一定相似度的情境，能有效提升效能並降低過擬合風險。',
 },
-
+'TrueBackpropSimulator': {
+    category: '模擬器',
+    definition: '一個模擬真實神經網路反向傳播過程的工具，用於視覺化梯度如何在不同層中流動。',
+    usage: '幫助理解梯度消失、梯度爆炸等問題，並觀察不同激活函數和初始化方法對梯度穩定性的影響。',
+  },
+  'Backpropagation': {
+    category: '演算法',
+    definition: '一種用於訓練多層神經網路的演算法。它利用微積分的連鎖法則，從輸出層開始將誤差梯度反向傳播回每一層，以更新網路中的所有權重。',
+    usage: '是訓練絕大多數深度神經網路的基礎演算法。',
+    formula: '∇W = δ ⋅ A', // 簡化表示，W為權重，δ為誤差，A為輸入
+  },
+  'Gradient Vanishing': {
+    category: '問題',
+    definition: '當梯度在反向傳播過程中通過多層網路時，其值變得越來越小，最終趨近於零，導致靠近輸入層的權重幾乎無法更新。',
+    usage: '使用 ReLU 激活函數、殘差網路（ResNet）或 Batch Normalization 等技術可以緩解此問題。',
+  },
+  'Gradient Exploding': {
+    category: '問題',
+    definition: '當梯度在反向傳播過程中呈指數級增長，變得異常大，導致模型權重更新幅度過大，使訓練過程變得不穩定。',
+    usage: '通常透過梯度裁剪（Gradient Clipping）來解決。',
+  },
 };
 
 
